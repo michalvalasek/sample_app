@@ -31,6 +31,7 @@ gem 'gravatar_image_tag', '1.0.0.pre2'
 
 group :development do 
 	gem 'annotate-models', '1.0.4'
+	gem 'bartt-ssl_requirement', :require => 'ssl_requirement'
 end
 
 group :development, :test do
