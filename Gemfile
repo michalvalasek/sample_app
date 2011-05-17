@@ -31,13 +31,10 @@ gem 'will_paginate', '3.0.pre2'
 # and rake tasks are available in development mode:
 
 group :development do 
+	gem 'rspec-rails', '2.5.0'
 	gem 'annotate-models', '1.0.4'
 	gem 'bartt-ssl_requirement', :require => 'ssl_requirement'
 	gem 'faker', '0.3.1'
-end
-
-group :development, :test do
-	gem 'rspec-rails', '2.5.0'
 end
 
 group :test do
